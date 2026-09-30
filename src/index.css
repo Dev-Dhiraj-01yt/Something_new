@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{font-family:'Inter',system-ui,sans-serif;color:#1e4631;background:#fcfbf9;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}html,body,#root{min-height:100%;width:100%}body{margin:0;background:#fcfbf9}button,input,a{-webkit-tap-highlight-color:transparent}::selection{background:rgba(200,90,50,.2)}
+@layer utilities{.font-display{font-family:'Playfair Display',Georgia,serif}.scrollbar-none{scrollbar-width:none}.scrollbar-none::-webkit-scrollbar{display:none}}
